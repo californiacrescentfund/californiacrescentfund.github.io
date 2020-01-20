@@ -96,15 +96,21 @@ input, select, textarea {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     display: inline-block;
-		width: 50%;
-		max-width: 50%;
+		width: 100%;
 		min-width: 50%;
 		flex-basis: 50%;
 		text-align: center;
 }
+@media screen and (max-width: 800px) {
+	.team-row {
+		display: table !important;
+	}
 
+}
 .team-row {
-    display: table;
+		display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%; /*Optional*/
     table-layout: fixed; /*Optional*/
     border-spacing: 10px; /*Optional*/
