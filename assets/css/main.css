@@ -72,6 +72,44 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Team */
+
+.team-card-image {
+    border-radius: 50%;
+    height: 15rem;
+    margin-right: 1rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.team-card-name {
+	margin: 0;
+}
+
+.team-card-bio {
+    line-height: 0.9rem;
+    margin-top: 0.25rem;
+    color: #7e7e7e;
+}
+
+.team-card-container {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    display: inline-block;
+		width: 50%;
+		max-width: 50%;
+		min-width: 50%;
+		flex-basis: 50%;
+		text-align: center;
+}
+
+.team-row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2627,7 +2665,7 @@ input, select, textarea {
 					-webkit-transition: opacity 0.5s ease;
 					-ms-transition: opacity 0.5s ease;
 					transition: opacity 0.5s ease;
-					content: '';
+					/* content: ''; */
 					display: block;
 					position: absolute;
 					top: 0;
