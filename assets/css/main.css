@@ -37,6 +37,14 @@ ol, ul {
 	list-style: none;
 }
 
+hr {
+	margin: 0 !important;
+}
+
+#team_h {
+	margin: 0 !important;
+}
+
 blockquote, q {
 	quotes: none;
 }
